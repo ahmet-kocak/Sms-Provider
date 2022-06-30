@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, transparent, rgba(233, 16, 16, 0.408)),
+    url("stones.jpg") no-repeat fixed;
+
+  background-size: cover;
+}
+
+.App {
+  margin-top: 0;
+  text-align: center;
+}
+.celled thead th {
+  background-image: url();
+  font-size: 14px;
+  color: rgb(4, 10, 42) !important;
+  background-color: rgb(192, 192, 192) !important;
+}
+.containerlogin {
+  width: 350px;
+  margin: 100px auto;
+  text-align: left;
+  padding: 50px;
+  color: white;
+}
+.celled tbody {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(72, 96, 184);
+  background-color: rgb(220, 220, 220) !important;
+}
+
+.celled tfoot tr th {
+  background-color: rgb(105, 105, 105) !important;
+  color: rgb(255, 255, 255);
+}
+.transition {
+  margin: 0 auto !important;
+}
+.modal {
+  top: 0 !important;
+  left: auto !important;
+}
+.fields {
+  height: 45px;
+}
+.containerform {
+  border-radius: 13px;
+  padding-bottom: 21px;
+  padding-top: 5px;
+}
+.collapsing {
+  height: 10px;
+}
+.failed {
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+.failedlogen {
+  color: rgb(236, 236, 14);
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 9px;
+}
+
+.updatestyle {
+  color: rgb(7, 7, 7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.aligned {
+  height: 60px !important;
+}
+
+.userlistcontainer {
+  width: 60vw;
+  margin: 30px auto 0 auto;
+}
+
+.userlisthead {
+  color: red;
+  text-shadow: 4px 4px 1px black;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.usertable {
+  height: 80vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.listcontainer {
+  
+  position: fixed;
+  right: 30px;
+  top:30px
+}
+.loading {
+  height: 50px;
+  width: auto;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  position: absolute;
+  color: white;
+  top: -13px;
+  right: 0;
+}
+.modalstyle {
+  width: 60% !important;
+  height: auto !important;
+  margin: 60px !important;
+}
+.equal {margin-bottom: 40px!important;} 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .modalstyle {
+    width: 100% !important;
+  }
+  .userlistcontainer,
+  .usertable {
+    width: 800px !important;
+    margin: 30px auto 0 auto;
+  }
+}
